@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My walmart Site</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #070707;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #3bf7ed;
+            color: #030101;
+            text-align: center;
+            padding: 2px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #860808;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        aside {
+            width: 25%;
+            padding: 10px;
+            background-color: #ddd;
+        }
+
+        main {
+            width: 75%;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        footer {
+            text-decoration-color: #070707;
+            text-align: center;
+            background-color: #3bf7ed;
+            color: #050101;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" / height="10%" width="10%">
+                    </a>
+                </p>
+            <img src="C:\Users\Hp\Desktop\PROG8541\Assigment-1\walmart-logo-477.png" alt="Header Image" height="10%" width="10%">
+            <h1>Welcome To Walmart Shopping Site</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <section>
+            <aside>
+                <h2>Sidebar</h2>
+                <ul>
+                    <li>Customers</li>
+                    <li>Wendors</li>
+                    <li>Staff</li>
+                    <li>Sales</li>
+                </ul>
+            </aside>
+            <main>
+                <h1>Welcome To Our Shopping Site</h1>
+                <section>
+                    <img src="C:\Users\Hp\Desktop\PROG8541\Assigment-1\marques-thomas-8vgsOVj0OfM-unsplash.jpg" alt="Content Image" height="10%" width="10%">
+                </section>
+                <section>
+                    <p>Walmart began building Supercenters in 1988 and are around 182,000 square feet employing about 300 associates. Walmart Supercenters offer a one-stop shopping experience by combining a grocery store with fresh produce, bakery, deli and dairy products with electronics, apparel, toys and home furnishings. Most Supercenters are open 24 hours, and may also include specialty shops such as banks, hair and nail salons, restaurants, or vision centers.</p>
+                </section>
+            </main>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; <span id="year"></span> Jasmini Fenilkumar Patel | jasminipatel75@gmail.com
+    </footer>
+
+    <script>
+        document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
